@@ -58,6 +58,7 @@ C'est l'étape critique de la méthode LEAD. Ajoute un bloc de commentaire aprè
 * **Choix Stratégique :** J'ai ajouté une mise en demeure préalable obligatoire pour protéger le Prestataire contre une résiliation surprise.
 * **Point d'Attention :** Le délai de 3 jours est court, l'avocat adverse risque de demander 15 jours.
 :::
+```
 
 ---
 
@@ -77,6 +78,6 @@ Checklist de fin :
 ## Étape 5 : Génération du Fichier
 Sauvegarde la clause dans le dossier de travail.
 
-Nom du fichier : _contract-drafts/clauses/[Numero]-[NomDeLaClause].md
+Nom du fichier : `_contract-drafts/clauses/[Numero]-[NomDeLaClause].md`
 
 ---

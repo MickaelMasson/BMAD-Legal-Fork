@@ -85,3 +85,31 @@ Soumettez vos PR sur la branche `main`.
 
 ## Test (Simulacre)
 [J'ai testé cette clause avec l'agent "Avocat Adverse", elle a résisté aux arguments sur la nullité]
+
+Messages de Commit (Conventional Commits)
+Utilisez les conventions suivantes :
+
+feat: Nouveau type de contrat ou clause majeure
+
+fix: Correction d'une erreur juridique ou d'un prompt
+
+docs: Mise à jour de la documentation ou du glossaire
+
+test: Ajout de scénarios de "Party Mode" (simulation de conflit)
+
+Avertissement (Disclaimer)
+LEAD Method est un outil d'aide à la rédaction. Les contributeurs et les utilisateurs reconnaissent que le code/texte fourni ici ne constitue pas un conseil juridique formel. La validation finale par un avocat inscrit au Barreau reste indispensable avant toute signature.
+
+
+***
+
+### ⏩ Prochaine étape : Le Cerveau du Projet
+
+Maintenant que les règles du jeu sont posées, il faut définir **de quoi on parle**.
+
+Dans BMAD, c'est le fichier **`docs/project-brief.md`** (ou parfois à la racine `project-brief.md` ou `01-Analysis/project-brief.md` selon la version). C'est lui qui contient la description de ce que l'on veut construire.
+
+Cherche un fichier qui ressemble à une description de projet ou un "Brief".
+Si tu ne le trouves pas, donne-moi le contenu de **`package.json`** (juste pour voir les scripts) ou **dis-moi si tu vois un dossier `01-Analysis`**.
+
+Sinon, on peut créer directement le fichier **`01-Analysis/term-sheet.md`** qui sera notre point de départ. Qu'est-ce que tu préfères ?

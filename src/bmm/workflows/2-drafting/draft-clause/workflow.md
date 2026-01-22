@@ -59,6 +59,8 @@ C'est l'étape critique de la méthode LEAD. Ajoute un bloc de commentaire aprè
 * **Point d'Attention :** Le délai de 3 jours est court, l'avocat adverse risque de demander 15 jours.
 :::
 
+---
+
 Étape 4 : Auto-Correction (Linting Juridique)
 Relis ta propre clause et vérifie les "Bad Smells" (les erreurs de débutant).
 

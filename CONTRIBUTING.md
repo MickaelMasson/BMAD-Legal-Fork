@@ -1,167 +1,87 @@
-# Contributing to BMad
+# Contribuer à LEAD Method (Legal Engineering)
 
-Thank you for considering contributing! We believe in **Human Amplification, Not Replacement** — bringing out the best thinking in both humans and AI through guided collaboration.
+Merci de vouloir contribuer ! Nous croyons en **l'Amplification Juridique, pas au Remplacement**. Notre but est de coupler la rigueur du Droit avec la puissance d'analyse de l'IA pour créer des contrats "Zéro Défaut".
 
-💬 **Discord**: [Join our community](https://discord.gg/gk8jAdXWmj) for real-time discussions, questions, and collaboration.
-
----
-
-## Our Philosophy
-
-BMad strengthens human-AI collaboration through specialized agents and guided workflows. Every contribution should answer: **"Does this make humans and AI better together?"**
-
-**✅ What we welcome:**
-- Enhanced collaboration patterns and workflows
-- Improved agent personas and prompts
-- Domain-specific modules leveraging BMad Core
-- Better planning and context continuity
-
-**❌ What doesn't fit:**
-- Purely automated solutions that sideline humans
-- Complexity that creates barriers to adoption
-- Features that fragment BMad Core's foundation
+💬 **Discord** : [Rejoindre la communauté](https://discord.gg/gk8jAdXWmj) (Lien à mettre à jour si tu en crées un) pour discuter clause, jurisprudence et prompt engineering.
 
 ---
 
-## Reporting Issues
+## ⚖️ Notre Philosophie : "Code is Law"
 
-**ALL bug reports and feature requests MUST go through GitHub Issues.**
+LEAD renforce la collaboration Humain-IA à travers des workflows de rédaction structurés. Chaque contribution doit répondre à la question : **"Est-ce que cela rend le contrat plus sûr, plus clair et juridiquement plus solide ?"**
 
-### Before Creating an Issue
+**✅ Ce que nous recherchons :**
+- Des "Patterns" de clauses robustes (ex: Clause limitative de responsabilité validée par jurisprudence).
+- Des Personas d'agents améliorés (ex: un "Avocat Adverse" plus agressif).
+- Des modules spécifiques (ex: Module RGPD, Module Droit du Travail).
+- Une meilleure gestion du contexte juridique (références croisées).
 
-1. **Search existing issues** — Use the GitHub issue search to check if your bug or feature has already been reported
-2. **Search closed issues** — Your issue may have been fixed or addressed previously
-3. **Check discussions** — Some conversations happen in [GitHub Discussions](https://github.com/bmad-code-org/BMAD-METHOD/discussions)
-
-### Bug Reports
-
-After searching, if the bug is unreported, use the [bug report template](https://github.com/bmad-code-org/BMAD-METHOD/issues/new?template=bug_report.md) and include:
-
-- Clear description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Your environment (model, IDE, BMad version)
-- Screenshots or error messages if applicable
-
-### Feature Requests
-
-After searching, use the [feature request template](https://github.com/bmad-code-org/BMAD-METHOD/issues/new?template=feature_request.md) and explain:
-
-- What the feature is
-- Why it would benefit the BMad community
-- How it strengthens human-AI collaboration
-
-**For community modules**, review [TRADEMARK.md](TRADEMARK.md) for proper naming conventions (e.g., "My Module (BMad Community Module)").
+**❌ Ce qui est refusé :**
+- Les solutions 100% automatisées sans validation humaine ("Human-in-the-loop" obligatoire).
+- Le "Légalese" inutile (jargon complexe quand le langage clair suffit).
+- Les hallucinations juridiques (références à des articles de loi inexistants ou abrogés).
 
 ---
 
-## Before Starting Work
+## Signaler des "Bugs" Juridiques
 
-⚠️ **Required before submitting PRs:**
+**TOUT signalement de faille ou demande de modèle doit passer par les Issues GitHub.**
 
-| Work Type     | Requirement                                    |
-| ------------- | ---------------------------------------------- |
-| Bug fix       | An open issue (create one if it doesn't exist) |
-| Feature       | An open feature request issue                  |
-| Large changes | Discussion via issue first                     |
+### Avant de créer une Issue
 
-**Why?** This prevents wasted effort on work that may not align with project direction.
+1. **Recherche** : Vérifiez si la clause ou le problème a déjà été discuté.
+2. **Contexte** : Précisez toujours la juridiction visée (par défaut : **Droit Français**).
+
+### Bug Reports (Failles Juridiques)
+
+Si vous trouvez une faille dans un template ou un prompt, utilisez le template de bug et incluez :
+- La clause incriminée.
+- La raison juridique de la faille (ex: "Contraire à l'article 1170 du Code civil").
+- Une proposition de correction (le "Patch").
+
+### Feature Requests (Nouveaux Contrats)
+
+Pour proposer un nouveau type de contrat (ex: "CGV E-commerce"), expliquez :
+- L'objectif du document.
+- Les parties prenantes (ex: Vendeur Pro / Acheteur Consommateur).
+- Les points de friction habituels.
 
 ---
 
-## Pull Request Guidelines
+## Standards de Rédaction (Legal Engineering)
 
-### Target Branch
+⚠️ **Règles d'Or pour les Prompts et les Agents :**
 
-Submit PRs to the `main` branch.
+| Règle | Description |
+| :--- | :--- |
+| **Primauté du Droit** | Toute rédaction doit se conformer au Droit Français (sauf mention contraire). Citer les articles du Code Civil/Commerce est encouragé. |
+| **Atomicité** | Une "User Story" = Une Clause unique. Ne mélangez pas "Paiement" et "Livraison". |
+| **Intention** | Chaque clause générée doit être accompagnée d'un commentaire expliquant *l'intention* (le "Pourquoi") pour faciliter la relecture par l'avocat. |
+| **Clarté** | Privilégier le style "Legal Design" : phrases courtes, voix active. |
 
-### PR Size
+---
 
-- **Ideal**: 200-400 lines of code changes
-- **Maximum**: 800 lines (excluding generated files)
-- **One feature/fix per PR**
+## Guidelines pour les Pull Requests (PR)
 
-If your change exceeds 800 lines, break it into smaller PRs that can be reviewed independently.
+### Branche Cible
+Soumettez vos PR sur la branche `main`.
 
-### New to Pull Requests?
+### Taille de la PR
+- **Idéal** : 1 Article complet ou 1 Agent spécifique.
+- **Maximum** : Ne refondez pas tout le Code Civil en une fois.
 
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/YOUR-USERNAME/bmad-method.git`
-3. **Create a branch**: `git checkout -b fix/description` or `git checkout -b feature/description`
-4. **Make changes** — keep them focused
-5. **Commit**: `git commit -m "fix: correct typo in README"`
-6. **Push**: `git push origin fix/description`
-7. **Open PR** from your fork on GitHub
-
-### PR Description Template
+### Description de la PR (Template)
 
 ```markdown
-## What
-[1-2 sentences describing WHAT changed]
+## Quoi
+[1-2 phrases décrivant l'ajout : ex: "Ajout du module Propriété Intellectuelle SaaS"]
 
-## Why
-[1-2 sentences explaining WHY this change is needed]
-Fixes #[issue number]
+## Pourquoi
+[Pourquoi c'est nécessaire : ex: "Le module actuel ne couvrait pas la cession des droits futurs"]
 
-## How
-- [2-3 bullets listing HOW you implemented it]
--
+## Comment (Preuve juridique)
+- [Référence à l'article L.111-1 du CPI]
+- [Inspiré de la jurisprudence X vs Y]
 
-## Testing
-[1-2 sentences on how you tested this]
-```
-
-**Keep it under 200 words.**
-
-### Commit Messages
-
-Use conventional commits:
-
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation only
-- `refactor:` Code change (no bug/feature)
-- `test:` Adding tests
-- `chore:` Build/tools changes
-
-Keep messages under 72 characters. Each commit = one logical change.
-
----
-
-## What Makes a Good PR?
-
-| ✅ Do                        | ❌ Don't                      |
-| --------------------------- | ---------------------------- |
-| Change one thing per PR     | Mix unrelated changes        |
-| Clear title and description | Vague or missing explanation |
-| Reference related issues    | Reformat entire files        |
-| Small, focused commits      | Copy your whole project      |
-| Work on a branch            | Work directly on `main`      |
-
----
-
-## Prompt & Agent Guidelines
-
-- Keep dev agents lean — focus on coding context, not documentation
-- Web/planning agents can be larger with complex tasks
-- Everything is natural language (markdown) — no code in core framework
-- Use BMad modules for domain-specific features
-- Validate YAML schemas: `npm run validate:schemas`
-
----
-
-## Need Help?
-
-- 💬 **Discord**: [Join the community](https://discord.gg/gk8jAdXWmj)
-- 🐛 **Bugs**: Use the [bug report template](https://github.com/bmad-code-org/BMAD-METHOD/issues/new?template=bug_report.md)
-- 💡 **Features**: Use the [feature request template](https://github.com/bmad-code-org/BMAD-METHOD/issues/new?template=feature_request.md)
-
----
-
-## Code of Conduct
-
-By participating, you agree to abide by our [Code of Conduct](.github/CODE_OF_CONDUCT.md).
-
-## License
-
-By contributing, your contributions are licensed under the same MIT License. See [CONTRIBUTORS.md](CONTRIBUTORS.md) for contributor attribution.
+## Test (Simulacre)
+[J'ai testé cette clause avec l'agent "Avocat Adverse", elle a résisté aux arguments sur la nullité]

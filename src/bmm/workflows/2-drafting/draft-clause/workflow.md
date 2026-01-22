@@ -58,3 +58,32 @@ C'est l'étape critique de la méthode LEAD. Ajoute un bloc de commentaire aprè
 * **Choix Stratégique :** J'ai ajouté une mise en demeure préalable obligatoire pour protéger le Prestataire contre une résiliation surprise.
 * **Point d'Attention :** Le délai de 3 jours est court, l'avocat adverse risque de demander 15 jours.
 :::
+
+Étape 4 : Auto-Correction (Linting Juridique)
+Relis ta propre clause et vérifie les "Bad Smells" (les erreurs de débutant).
+
+Checklist de fin :
+
+[ ] Ai-je utilisé "Nous" ou "Je" ? (Interdit -> utiliser "le Prestataire").
+
+[ ] Ai-je laissé des [Crochets] non remplis ?
+
+[ ] La clause est-elle contradictoire avec le Term Sheet (ex: prix différent) ?
+
+[ ] Les renvois d'articles (Article X) sont-ils corrects ?
+
+Étape 5 : Génération du Fichier
+Sauvegarde la clause dans le dossier de travail.
+
+Nom du fichier : _contract-drafts/clauses/[Numero]-[NomDeLaClause].md
+
+---
+
+### Pourquoi c'est efficace ?
+
+Regarde l'**Étape 3**. C'est ce qui va te faire gagner de l'argent.
+Quand tu enverras le résultat à ton avocat, il ne lira pas juste un texte aride. Il lira :
+1.  Le texte.
+2.  *Ta note :* "J'ai mis 3 jours de délai car on veut être agressif, mais je sais que c'est court."
+
+L'avocat pourra juste dire : "Ok, audacieux, on garde" ou "Non, passe à 10 jours". Le débat est immédiat, plus besoin de longs emails explicatifs.
